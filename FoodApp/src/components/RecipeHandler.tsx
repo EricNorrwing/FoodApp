@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { getURL } from "../resources/Variables";
 import { Ingredient, Recipe, Ratings } from "../types";
+import RecipeComponent from "./RecipeComponent";
 
 
 const RecipeHandler: React.FC = () => {
@@ -11,7 +12,7 @@ const RecipeHandler: React.FC = () => {
   //First imports > States > Functions > Hooks
   const [recipe, setRecipe] = useState<Recipe[]>([]);
 
-   //Updates the recipe State everytime anyone touches setRecipe
+  //Updates the recipe State everytime anyone touches setRecipe
   //Gets all Recipes and returns the data
   const getRecipesFromAPI = async () => {
     try {
@@ -31,6 +32,8 @@ const RecipeHandler: React.FC = () => {
   return (
     <>
     <button onClick={getRecipesFromAPI}>Fetch recipes</button>
+    {recipe.map((recipeItem) => ( <RecipeComponent key={recipeItem._id} recipe={recipeItem} /> ))}
+    
     </>
   )
 };
