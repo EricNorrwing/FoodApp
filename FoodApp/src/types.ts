@@ -1,21 +1,27 @@
 export interface Recipe {
-    _id?: string,
+    _id?: string, 
+
     title: string,
     description: string,
-    ratings: number[],
-    imageURL: string,
-    timeInMins: number,
-    categories: string[],
+
+    rating?: Rating,
+    imageUrl: string,
+    timeInMins?: number,
+    categories: string[], 
     instructions: string[],
-    ingredients: Ingredient[]
+    completed?: boolean,
+    ingredients: Ingredient
 }
+
 
 export interface Ingredient {
     name: string,
-    amount: number, 
+    amount: number,
     unit: string
 }
 
-export interface Ratings {
-    ratings: number
+
+export interface Rating {
+    rating: number,
+
 }
