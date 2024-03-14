@@ -23,4 +23,5 @@ export interface Ingredient {
 
 export interface Rating {
     rating: number,
+
 }
