@@ -6,8 +6,7 @@ interface RecipeComponentProps {
 }
 
 const RecipeComponent = ({
-  recipe,
-  //handleDelete,
+  recipe
 }: RecipeComponentProps) => {
   return (
     <div className="recipe-component">
