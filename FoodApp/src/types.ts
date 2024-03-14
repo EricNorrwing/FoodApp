@@ -1,15 +1,12 @@
 export interface Recipe {
-    _id?: string, 
-
+    _id?: string,  
     title: string,
     description: string,
-
-    rating?: Rating,
+    ratings: Ratings,
     imageUrl: string,
     timeInMins?: number,
     categories: string[], 
     instructions: string[],
-    completed?: boolean,
     ingredients: Ingredient
 }
 
@@ -21,7 +18,7 @@ export interface Ingredient {
 }
 
 
-export interface Rating {
+export interface Ratings {
     rating: number,
 
 }

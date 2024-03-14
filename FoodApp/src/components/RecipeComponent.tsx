@@ -1,8 +1,8 @@
 import { Recipe } from "../types";
+import RecipeHandler from "./RecipeHandler";
 
 interface RecipeComponentProps {
   recipe: Recipe;
-  handleDelete: (id: string) => Promise<void>;
 }
 
 const RecipeComponent = ({
@@ -11,12 +11,14 @@ const RecipeComponent = ({
 }: RecipeComponentProps) => {
   return (
     <div className="recipe-component">
+      
    
-      <p>{recipe.title}</p>
+      <h1>{recipe.title}</h1>
       <img src={recipe.imageUrl} alt={recipe.title} />
-      {/* <p className="recipe-delete" onClick={() => handleDelete(recipe._id)}>
-        X Delete
-      </p> */}
+      <p>{recipe.description}</p>
+      <p>{recipe.instructions}</p>
+      
+     
     </div>
   );
 };
