@@ -35,6 +35,28 @@ const RecipeHandler: React.FC = () => {
     }
   };
 
+
+  function checker() {
+    //Creates a "are you sure window"
+    const result = confirm('Are you sure you want to delete this recipe?')
+    if (result == true){
+      //if we confirm go to detele function
+      deleteRecipes()
+    }
+  }
+
+  const deleteRecipes = async () => {
+
+    const swaggerURL = getURL();
+    //currently using the "real id" (no props to work from )  
+    const response = await axios.delete(`${swaggerURL}/recipes/65f839fda6ed75820044dd7b`)
+  
+    if(response.status === 200) {
+      console.log("Recipe Removed")
+    }
+  }
+
+ 
   //Runs once on app start
   useEffect(() => {
     getRecipesFromAPI();
@@ -46,6 +68,8 @@ const RecipeHandler: React.FC = () => {
     <button onClick={getRecipesFromAPI}>Fetch recipes</button>
       {/* This displays an individual recipe based on the singleRecipe object that is defined above */}
       {singleRecipe && <RecipeComponent recipe={singleRecipe} />}
+      <button onClick={checker}>Delete button</button>
+      
     
     </>
   )
