@@ -1,7 +1,8 @@
 import './App.css'
 import { Recipe, Ingredient, Ratings } from './types'
-import RecipeHandler from './components/RecipeHandler'
 import CreateRecipePage from './pages/CreateRecipePage';
+import RecipeComponent from './components/DisplayRecipeComponent';
+import useRecipeState from './states/StateManager';
 
 
 function App() {
@@ -11,10 +12,9 @@ function App() {
       <div>
         <h1>Get recipes</h1>
         <ul>
-          <RecipeHandler/>
+        <button onClick={useRecipeState.getState().getRecipesFromAPI}>Fetch recipes</button>
           <CreateRecipePage />
-        </ul>
-        
+        </ul> 
       </div>
     </>
   );

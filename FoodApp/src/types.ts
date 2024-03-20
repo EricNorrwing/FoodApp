@@ -20,5 +20,4 @@ export interface Ingredient {
 
 export interface Ratings {
     rating: number,
-
 }
