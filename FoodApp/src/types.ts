@@ -4,10 +4,10 @@ export interface Recipe {
     description: string,
     ratings?: Ratings,
     imageUrl: string,
-    timeInMins?: number,
+    timeInMins: number,
     categories: string[], 
     instructions: string[],
-    ingredients: Ingredient
+    ingredients: Ingredient[]
 }
 
 
