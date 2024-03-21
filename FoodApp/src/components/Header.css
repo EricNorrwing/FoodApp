@@ -1,0 +1,46 @@
+
+
+.header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo img {
+  width: 150px; /* Adjust the width to make the logo smaller */
+  height: auto; /* Maintain aspect ratio */
+  
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navigation ul li {
+  margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+  margin-right: 0;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+  color: #ffd700; /* Change color on hover */
+}

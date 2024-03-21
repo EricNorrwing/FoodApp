@@ -1,33 +1,34 @@
-import './App.css'
-import { Recipe, Ingredient, Ratings } from './types'
-import CreateRecipePage from './pages/CreateRecipePage';
-import RecipeComponent from './components/DisplayRecipeComponent';
-import useRecipeState from './states/StateManager';
-import IngredientTypeSelector from './components/ingredientTypeSelector/IngredientTypeSelector';
-import { useState } from 'react';
-
+import { BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import Homepage from "./components/Homepage";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import AllRecipes from "./pages/AllRecipes";
 
 function App() {
-  const [IngredinetType, setIngredientType] = useState("");
-
-  const handleIngredientTypeChange = (newString: string) => {
-    setIngredientType(newString);
-  };
-  console.log(IngredinetType)
-
-
   return (
     <>
-      <div>
-        <h1>Get recipes</h1>
-        <IngredientTypeSelector onTypeStringChange={handleIngredientTypeChange} />
-        <ul>
-        <button onClick={useRecipeState.getState().getRecipesFromAPI}>Fetch recipes</button>
-          <CreateRecipePage />
-        </ul> 
-      </div>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/recipes" element={<AllRecipes />} />
+          {/* This is just an example for a component we can have on the Homepage */}
+          {/* <Route path="/create-recipe" element={<CreateRecipe />} />
+          <Route path="/cocktails" element={<AllCocktailsPage />} />
+          <Route
+            path="/recipes/:title"
+            element={<SingleRecipe recipe={RecipeCard} />}
+          />
+          <Route path="about-us" element={<About />} />
+          <Route path="blog" element={<Blog />} />
+
+          Feel free to add more routes as needed or take some away! */}
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
-};
+}
 
 export default App;
