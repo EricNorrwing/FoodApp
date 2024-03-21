@@ -12,8 +12,9 @@ export const SearchBar = ({setResults}) => {
     fetch(`${URL}/recipes`)
       .then((response) => response.json())
       .then((json) => {
+        const lowerCaseValue = value.toLowerCase();
         const results = json.filter((recipe) => {
-          return value && recipe && recipe.title.toLowerCase().includes(value);
+          return value && recipe && recipe.title.toLowerCase().includes(lowerCaseValue);
         });
         setResults(results)
       });
