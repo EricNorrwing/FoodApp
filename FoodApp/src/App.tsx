@@ -8,6 +8,7 @@ import CreateRecipePage from "./pages/CreateRecipePage";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
+import RecipeDetailPage from "./pages/RecipeDetailPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/create-recipe" element={<CreateRecipePage />} />
+          <Route path="/recipe/" element={<RecipeDetailPage/>}/>
         </Routes>
         {/* <Footer/> */}
       </BrowserRouter>
