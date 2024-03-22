@@ -28,6 +28,7 @@ const CleanRecipeAPIData = () => {
     recipeState.getRecipesFromAPI();
   };
 
+  //Todo add clear state
   const clearAPI = async () => {
     try {
       const response = await axios.get(`${recipeURL}/clear`);

@@ -1,297 +1,443 @@
 [
-    {
-        "title": "Grilled Steak with Garlic Butter",
-        "description": "Juicy grilled steak seasoned with salt and pepper, topped with flavorful garlic butter.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/grilled_steak_garlic_butter.jpg",
-        "timeInMins": 20,
-        "categories": ["Meat"],
-        "instructions": ["Preheat grill to high heat.", "Season steak with salt and pepper.", "Grill steak for 4-5 minutes on each side for medium-rare.", "Mix softened butter with minced garlic.", "Top grilled steak with garlic butter and let it rest for a few minutes before serving."],
-        "ingredients": [
-          { "name": "Steak", "amount": 2, "unit": "Pieces" },
-          { "name": "Salt", "amount": 1, "unit": "Teaspoon" },
-          { "name": "Black pepper", "amount": 1, "unit": "Teaspoon" },
-          { "name": "Butter", "amount": 100, "unit": "Gram" },
-          { "name": "Garlic", "amount": 2, "unit": "Cloves" }
-        ]
-      },
-      {
-        "title": "Lemon Herb Roast Chicken",
-        "description": "Whole chicken marinated in lemon juice, olive oil, and herbs, then roasted to perfection.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/lemon_herb_roast_chicken.jpg",
-        "timeInMins": 90,
-        "categories": ["Chicken"],
-        "instructions": ["Preheat oven to 375°F (190°C).", "Mix lemon juice, olive oil, minced garlic, rosemary, and thyme in a bowl.", "Rub the chicken with the marinade, including under the skin.", "Roast the chicken for 60-75 minutes or until internal temperature reaches 165°F (75°C).", "Let the chicken rest for 10 minutes before carving."],
-        "ingredients": [
-          { "name": "Whole chicken", "amount": 1, "unit": "Pieces" },
-          { "name": "Lemon juice", "amount": 0.25, "unit": "Liter" },
-          { "name": "Olive oil", "amount": 50, "unit": "Milliliter" },
-          { "name": "Garlic", "amount": 3, "unit": "Cloves" },
-          { "name": "Fresh rosemary", "amount": 2, "unit": "Tablespoons" },
-          { "name": "Fresh thyme", "amount": 2, "unit": "Tablespoons" }
-        ]
-      },
-      {
-        "title": "Grilled Salmon with Dill Sauce",
-        "description": "Fresh salmon fillets grilled and served with a creamy dill sauce.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/grilled_salmon_dill_sauce.jpg",
-        "timeInMins": 25,
-        "categories": ["Fish"],
-        "instructions": ["Preheat grill to medium-high heat.", "Season salmon fillets with salt and pepper.", "Grill salmon for 4-5 minutes on each side or until cooked through.", "Mix sour cream, chopped dill, lemon juice, and mustard for the sauce.", "Serve grilled salmon with dill sauce on the side."],
-        "ingredients": [
-          { "name": "Salmon fillets", "amount": 4, "unit": "Pieces" },
-          { "name": "Salt", "amount": 1, "unit": "Teaspoon" },
-          { "name": "Black pepper", "amount": 1, "unit": "Teaspoon" },
-          { "name": "Sour cream", "amount": 0.5, "unit": "Liter" },
-          { "name": "Fresh dill", "amount": 4, "unit": "Tablespoons" },
-          { "name": "Lemon juice", "amount": 30, "unit": "Milliliter" },
-          { "name": "Dijon mustard", "amount": 2, "unit": "Tablespoons" }
-        ]
-      },
+  {
+    "title": "Grilled Steak with Garlic Butter",
+    "description": "Juicy grilled steak seasoned with salt and pepper, topped with flavorful garlic butter.",
+    "ratings": [3],
+    "imageUrl": "https://ketocookingchristian.com/wp-content/uploads/2021/04/Grilled-Steak-with-Garlic-Herb-Compound-Butter2-1411x1536.jpeg",
+    "timeInMins": 20,
+    "categories": ["Meat"],
+    "instructions": ["Preheat grill to high heat.", "Season steak with salt and pepper.", "Grill steak for 4-5 minutes on each side for medium-rare.", "Mix softened butter with minced garlic.", "Top grilled steak with garlic butter and let it rest for a few minutes before serving."],
+    "ingredients": [
+      { "name": "Steak", "amount": 2, "unit": "Pieces" },
+      { "name": "Salt", "amount": 1, "unit": "Teaspoon" },
+      { "name": "Black pepper", "amount": 1, "unit": "Teaspoon" },
+      { "name": "Butter", "amount": 100, "unit": "Gram" },
+      { "name": "Garlic", "amount": 2, "unit": "Cloves" }
+    ]
+  },
+  {
+    "title": "Lemon Herb Roast Chicken",
+    "description": "Whole chicken marinated in lemon juice, olive oil, and herbs, then roasted to perfection.",
+    "ratings": [3],
+    "imageUrl": "https://minimalistbaker.com/wp-content/uploads/2022/09/EASY-Lemon-Herb-Roasted-Chicken-Thighs-30-minutes-SO-satisfying-and-elegant-minimalistbaker-recipe-roasted-chicken-thighs-13.jpg",
+    "timeInMins": 90,
+    "categories": ["Chicken"],
+    "instructions": ["Preheat oven to 375°F (190°C).", "Mix lemon juice, olive oil, minced garlic, rosemary, and thyme in a bowl.", "Rub the chicken with the marinade, including under the skin.", "Roast the chicken for 60-75 minutes or until internal temperature reaches 165°F (75°C).", "Let the chicken rest for 10 minutes before carving."],
+    "ingredients": [
+      { "name": "Whole chicken", "amount": 1, "unit": "Pieces" },
+      { "name": "Lemon juice", "amount": 0.25, "unit": "Liter" },
+      { "name": "Olive oil", "amount": 50, "unit": "Milliliter" },
+      { "name": "Garlic", "amount": 3, "unit": "Cloves" },
+      { "name": "Fresh rosemary", "amount": 2, "unit": "Tablespoons" },
+      { "name": "Fresh thyme", "amount": 2, "unit": "Tablespoons" }
+    ]
+  },
+  {
+    "title": "Grilled Salmon with Dill Sauce",
+    "description": "Fresh salmon fillets grilled and served with a creamy dill sauce.",
+    "ratings": [3],
+    "imageUrl": "https://www.walderwellness.com/wp-content/uploads/2021/06/Grilled-Salmon-With-Dill-Yogurt-Sauce-Walder-Wellness-4.jpg",
+    "timeInMins": 25,
+    "categories": ["Fish"],
+    "instructions": ["Preheat grill to medium-high heat.", "Season salmon fillets with salt and pepper.", "Grill salmon for 4-5 minutes on each side or until cooked through.", "Mix sour cream, chopped dill, lemon juice, and mustard for the sauce.", "Serve grilled salmon with dill sauce on the side."],
+    "ingredients": [
+      { "name": "Salmon fillets", "amount": 4, "unit": "Pieces" },
+      { "name": "Salt", "amount": 1, "unit": "Teaspoon" },
+      { "name": "Black pepper", "amount": 1, "unit": "Teaspoon" },
+      { "name": "Sour cream", "amount": 0.5, "unit": "Liter" },
+      { "name": "Fresh dill", "amount": 4, "unit": "Tablespoons" },
+      { "name": "Lemon juice", "amount": 30, "unit": "Milliliter" },
+      { "name": "Dijon mustard", "amount": 2, "unit": "Tablespoons" }
+    ]
+  },
 
-      {
-        "title": "Classic Beef Lasagna",
-        "description": "Layers of lasagna noodles, beef Bolognese sauce, creamy béchamel, and melted cheese.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/classic_beef_lasagna.jpg",
-        "timeInMins": 90,
-        "categories": ["Meat"],
-        "instructions": ["Preheat oven to 375°F (190°C).", "Spread a layer of Bolognese sauce in a baking dish.", "Layer lasagna noodles, Bolognese sauce, béchamel, and cheese.", "Repeat layers and finish with a layer of cheese on top.", "Cover with foil and bake for 45 minutes, then remove foil and bake for another 15 minutes until golden brown.", "Let it cool for a few minutes before serving."],
-        "ingredients": [
-          { "name": "Lasagna noodles", "amount": 9, "unit": "Sheets" },
-          { "name": "Ground beef", "amount": 500, "unit": "Gram" },
-          { "name": "Tomato sauce", "amount": 2, "unit": "Cups" },
-          { "name": "Onion", "amount": 1, "unit": "Pieces" },
-          { "name": "Garlic", "amount": 3, "unit": "Cloves" },
-          { "name": "Milk", "amount": 2, "unit": "Cups" },
-          { "name": "Butter", "amount": 4, "unit": "Tablespoons" },
-          { "name": "Flour", "amount": 4, "unit": "Tablespoons" },
-          { "name": "Parmesan cheese", "amount": 1, "unit": "Cup" },
-          { "name": "Mozzarella cheese", "amount": 2, "unit": "Cups" }
-        ]
-      },
-      {
-        "title": "Vegetable Stir-Fry",
-        "description": "Assorted vegetables stir-fried in a savory sauce, served over steamed rice.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/vegetable_stir_fry.jpg",
-        "timeInMins": 25,
-        "categories": ["Vegetarian"],
-        "instructions": ["Cook rice according to package instructions.", "Heat oil in a wok or skillet over high heat.", "Stir-fry bell peppers, broccoli, carrots, and snap peas until tender-crisp.", "Add minced garlic and ginger, then pour in the sauce.", "Cook until the sauce thickens slightly.", "Serve hot over steamed rice."],
-        "ingredients": [
-          { "name": "Bell peppers", "amount": 2, "unit": "Pieces" },
-          { "name": "Broccoli florets", "amount": 200, "unit": "Gram" },
-          { "name": "Carrots", "amount": 2, "unit": "Pieces" },
-          { "name": "Snap peas", "amount": 150, "unit": "Gram" },
-          { "name": "Garlic", "amount": 2, "unit": "Pieces" },
-          { "name": "Ginger", "amount": 1, "unit": "Gram" },
-          { "name": "Cooked rice", "amount": 300, "unit": "Gram" },
-          { "name": "Oil", "amount": 2, "unit": "Gram" },
-          { "name": "Soy sauce", "amount": 3, "unit": "Gram" },
-          { "name": "Sesame oil", "amount": 1, "unit": "Gram" },
-          { "name": "Cornstarch", "amount": 1, "unit": "Gram" },
-          { "name": "Sugar", "amount": 1, "unit": "Gram" },
-          { "name": "Rice vinegar", "amount": 1, "unit": "Gram" }
-        ]
-      },
-      {
-        "title": "Caprese Salad",
-        "description": "Fresh tomatoes, mozzarella cheese, and basil leaves drizzled with balsamic glaze.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/caprese_salad.jpg",
-        "timeInMins": 10,
-        "categories": ["Vegetarian"],
-        "instructions": ["Slice tomatoes and fresh mozzarella cheese into rounds.", "Arrange alternating slices of tomato, mozzarella, and basil leaves on a serving platter.", "Drizzle with balsamic glaze.", "Season with salt and pepper to taste.", "Serve immediately."],
-        "ingredients": [
-          { "name": "Tomatoes", "amount": 3, "unit": "Pieces" },
-          { "name": "Fresh mozzarella cheese", "amount": 200, "unit": "Gram" },
-          { "name": "Fresh basil leaves", "amount": 0.5, "unit": "Gram" },
-          { "name": "Balsamic glaze", "amount": 2, "unit": "Gram" },
-          { "name": "Salt", "amount": 0.5, "unit": "Gram" },
-          { "name": "Black pepper", "amount": 0.25, "unit": "Gram" }
-        ]
-      },
-      {
-        "title": "Chicken Alfredo Pasta",
-        "description": "Creamy Alfredo sauce tossed with tender chicken breast and fettuccine pasta.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/chicken_alfredo_pasta.jpg",
-        "timeInMins": 30,
-        "categories": ["Chicken"],
-        "instructions": ["Cook fettuccine pasta according to package instructions.", "Season chicken breast with salt, pepper, and Italian seasoning.", "Sauté chicken breast in a skillet until golden and cooked through.", "In the same skillet, add heavy cream, minced garlic, and grated Parmesan cheese.", "Simmer until the sauce thickens.", "Add cooked pasta to the skillet and toss to coat in the Alfredo sauce.", "Slice chicken breast and serve over the pasta.", "Garnish with chopped parsley and additional Parmesan cheese."],
-        "ingredients": [
-          { "name": "Fettuccine pasta", "amount": 250, "unit": "Gram" },
-          { "name": "Chicken breast", "amount": 2, "unit": "Pieces" },
-          { "name": "Salt", "amount": 1, "unit": "Gram" },
-          { "name": "Black pepper", "amount": 0.5, "unit": "Gram" },
-          { "name": "Italian seasoning", "amount": 1, "unit": "Gram" },
-          { "name": "Heavy cream", "amount": 1, "unit": "Gram" },
-          { "name": "Garlic", "amount": 3, "unit": "Pieces" },
-          { "name": "Parmesan cheese", "amount": 0.5, "unit": "Gram" },
-          { "name": "Fresh parsley", "amount": 2, "unit": "Gram" }
-        ]
-      },
-      {
-        "title": "Vegetarian Chili",
-        "description": "Hearty and nutritious chili made with beans, vegetables, and spices.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/vegetarian_chili.jpg",
-        "timeInMins": 40,
-        "categories": ["Vegetarian"],
-        "instructions": ["Heat olive oil in a large pot over medium heat.", "Sauté diced onions, bell peppers, and carrots until softened.", "Add minced garlic, chili powder, cumin, and paprika, and cook until fragrant.", "Stir in diced tomatoes, kidney beans, black beans, vegetable broth, and corn.", "Simmer for 25-30 minutes until flavors meld together and chili thickens.", "Season with salt and pepper to taste.", "Serve hot, garnished with chopped cilantro and a dollop of sour cream."],
-        "ingredients": [
-          { "name": "Olive oil", "amount": 2, "unit": "Gram" },
-          { "name": "Onion", "amount": 1, "unit": "Pieces" },
-          { "name": "Bell peppers", "amount": 2, "unit": "Pieces" },
-          { "name": "Carrots", "amount": 2, "unit": "Pieces" },
-          { "name": "Garlic", "amount": 3, "unit": "Pieces" },
-          { "name": "Chili powder", "amount": 2, "unit": "Gram" },
-          { "name": "Ground cumin", "amount": 1, "unit": "Gram" },
-          { "name": "Paprika", "amount": 1, "unit": "Gram" },
-          { "name": "Diced tomatoes", "amount": 400, "unit": "Gram" },
-          { "name": "Kidney beans", "amount": 400, "unit": "Gram" },
-          { "name": "Black beans", "amount": 400, "unit": "Gram" },
-          { "name": "Vegetable broth", "amount": 2, "unit": "Gram" },
-          { "name": "Corn", "amount": 200, "unit": "Gram" },
-          { "name": "Fresh cilantro", "amount": 2, "unit": "Gram" },
-          { "name": "Sour cream", "amount": 0.25, "unit": "Gram" }
-        ]
-      },
-      {
-        "title": "Spaghetti Carbonara",
-        "description": "Classic Italian pasta dish with spaghetti, pancetta, eggs, and Parmesan cheese.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/spaghetti_carbonara.jpg",
-        "timeInMins": 25,
-        "categories": ["Pasta"],
-        "instructions": ["Cook spaghetti in a pot of salted boiling water until al dente, then drain, reserving some pasta water.", "In a skillet, cook diced pancetta until crispy.", "In a bowl, whisk together eggs, grated Parmesan cheese, and black pepper.", "Add cooked spaghetti to the skillet with pancetta, then pour in the egg mixture.", "Toss quickly to coat the pasta, adding reserved pasta water as needed to create a creamy sauce.", "Serve hot, garnished with additional Parmesan cheese and chopped parsley."],
-        "ingredients": [
-          { "name": "Spaghetti", "amount": 250, "unit": "Gram" },
-          { "name": "Pancetta", "amount": 150, "unit": "Gram" },
-          { "name": "Eggs", "amount": 2, "unit": "Pieces" },
-          { "name": "Parmesan cheese", "amount": 0.5, "unit": "Gram" },
-          { "name": "Black pepper", "amount": 0.5, "unit": "Gram" },
-          { "name": "Salt", "amount": 0.5, "unit": "Gram" },
-          { "name": "Fresh parsley", "amount": 2, "unit": "Gram" }
-        ]
-      },
-      {
-        "title": "Vegetable Pad Thai",
-        "description": "A classic Thai noodle dish with stir-fried vegetables, tofu, and a tangy Pad Thai sauce.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/vegetable_pad_thai.jpg",
-        "timeInMins": 35,
-        "categories": ["Vegetarian"],
-        "instructions": ["Soak rice noodles in warm water until softened, then drain.", "In a wok, heat oil and sauté tofu until golden brown.", "Add minced garlic, chopped shallots, and sliced bell peppers.", "Stir in softened rice noodles, bean sprouts, and Pad Thai sauce.", "Cook until heated through.", "Serve hot, garnished with crushed peanuts, lime wedges, and chopped cilantro."],
-        "ingredients": [
-          { "name": "Rice noodles", "amount": 200, "unit": "Gram" },
-          { "name": "Tofu", "amount": 200, "unit": "Gram" },
-          { "name": "Garlic", "amount": 3, "unit": "Pieces" },
-          { "name": "Shallots", "amount": 2, "unit": "Pieces" },
-          { "name": "Bell peppers", "amount": 2, "unit": "Pieces" },
-          { "name": "Bean sprouts", "amount": 100, "unit": "Gram" },
-          { "name": "Pad Thai sauce", "amount": 4, "unit": "Gram" },
-          { "name": "Crushed peanuts", "amount": 0.25, "unit": "Gram" },
-          { "name": "Lime wedges", "amount": 2, "unit": "Pieces" },
-          { "name": "Fresh cilantro", "amount": 2, "unit": "Gram" }
-        ]
-      },
-      {
-        "title": "Honey Garlic Glazed Salmon",
-        "description": "Salmon fillets coated in a sweet and savory honey garlic glaze, baked to perfection.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/honey_garlic_salmon.jpg",
-        "timeInMins": 20,
-        "categories": ["Seafood"],
-        "instructions": ["Preheat oven to 375°F (190°C).", "In a bowl, mix honey, soy sauce, minced garlic, and grated ginger.", "Place salmon fillets on a baking sheet lined with parchment paper.", "Brush salmon with the honey garlic glaze.", "Bake for 12-15 minutes or until salmon is cooked through.", "Serve hot, garnished with sliced green onions and sesame seeds."],
-        "ingredients": [
-          { "name": "Salmon fillets", "amount": 4, "unit": "Pieces" },
-          { "name": "Honey", "amount": 4, "unit": "Gram" },
-          { "name": "Soy sauce", "amount": 2, "unit": "Gram" },
-          { "name": "Garlic", "amount": 2, "unit": "Pieces" },
-          { "name": "Ginger", "amount": 1, "unit": "Gram" },
-          { "name": "Green onions", "amount": 2, "unit": "Gram" },
-          { "name": "Sesame seeds", "amount": 1, "unit": "Gram" }
-        ]
-      },
-      {
-        "title": "Greek Salad",
-        "description": "A refreshing salad with crisp lettuce, tomatoes, cucumbers, olives, feta cheese, and Greek dressing.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/greek_salad.jpg",
-        "timeInMins": 15,
-        "categories": ["Vegetarian"],
-        "instructions": ["In a large bowl, combine chopped lettuce, sliced cucumbers, halved cherry tomatoes, sliced red onions, and Kalamata olives.", "Crumble feta cheese over the salad.", "Drizzle with Greek dressing and toss to coat evenly.", "Serve immediately, garnished with fresh oregano leaves."],
-        "ingredients": [
-          { "name": "Lettuce", "amount": 1, "unit": "Pieces" },
-          { "name": "Cucumbers", "amount": 2, "unit": "Pieces" },
-          { "name": "Cherry tomatoes", "amount": 200, "unit": "Gram" },
-          { "name": "Red onions", "amount": 1, "unit": "Pieces" },
-          { "name": "Kalamata olives", "amount": 0.5, "unit": "Gram" },
-          { "name": "Feta cheese", "amount": 150, "unit": "Gram" },
-          { "name": "Greek dressing", "amount": 4, "unit": "Gram" },
-          { "name": "Fresh oregano leaves", "amount": 2, "unit": "Gram" }
-        ]
-      },
+  {
+    "title": "Classic Beef Lasagna",
+    "description": "Layers of lasagna noodles, beef Bolognese sauce, creamy béchamel, and melted cheese.",
+    "ratings": [3],
+    "imageUrl": "https://www.recipegirl.com/wp-content/uploads/2021/04/Classic-Beef-Lasagna-6.jpeg",
+    "timeInMins": 90,
+    "categories": ["Meat"],
+    "instructions": ["Preheat oven to 375°F (190°C).", "Spread a layer of Bolognese sauce in a baking dish.", "Layer lasagna noodles, Bolognese sauce, béchamel, and cheese.", "Repeat layers and finish with a layer of cheese on top.", "Cover with foil and bake for 45 minutes, then remove foil and bake for another 15 minutes until golden brown.", "Let it cool for a few minutes before serving."],
+    "ingredients": [
+      { "name": "Lasagna noodles", "amount": 9, "unit": "Sheets" },
+      { "name": "Ground beef", "amount": 500, "unit": "Gram" },
+      { "name": "Tomato sauce", "amount": 2, "unit": "Cups" },
+      { "name": "Onion", "amount": 1, "unit": "Pieces" },
+      { "name": "Garlic", "amount": 3, "unit": "Cloves" },
+      { "name": "Milk", "amount": 2, "unit": "Cups" },
+      { "name": "Butter", "amount": 4, "unit": "Tablespoons" },
+      { "name": "Flour", "amount": 4, "unit": "Tablespoons" },
+      { "name": "Parmesan cheese", "amount": 1, "unit": "Cup" },
+      { "name": "Mozzarella cheese", "amount": 2, "unit": "Cups" }
+    ]
+  },
+  {
+    "title": "Vegetable Stir-Fry",
+    "description": "Assorted vegetables stir-fried in a savory sauce, served over steamed rice.",
+    "ratings": [3],
+    "imageUrl": "https://therecipecritic.com/wp-content/uploads/2019/08/vegetable_stir_fry.jpg",
+    "timeInMins": 25,
+    "categories": ["Vegetarian"],
+    "instructions": ["Cook rice according to package instructions.", "Heat oil in a wok or skillet over high heat.", "Stir-fry bell peppers, broccoli, carrots, and snap peas until tender-crisp.", "Add minced garlic and ginger, then pour in the sauce.", "Cook until the sauce thickens slightly.", "Serve hot over steamed rice."],
+    "ingredients": [
+      { "name": "Bell peppers", "amount": 2, "unit": "Pieces" },
+      { "name": "Broccoli florets", "amount": 200, "unit": "Gram" },
+      { "name": "Carrots", "amount": 2, "unit": "Pieces" },
+      { "name": "Snap peas", "amount": 150, "unit": "Gram" },
+      { "name": "Garlic", "amount": 2, "unit": "Pieces" },
+      { "name": "Ginger", "amount": 1, "unit": "Gram" },
+      { "name": "Cooked rice", "amount": 300, "unit": "Gram" },
+      { "name": "Oil", "amount": 2, "unit": "Gram" },
+      { "name": "Soy sauce", "amount": 3, "unit": "Gram" },
+      { "name": "Sesame oil", "amount": 1, "unit": "Gram" },
+      { "name": "Cornstarch", "amount": 1, "unit": "Gram" },
+      { "name": "Sugar", "amount": 1, "unit": "Gram" },
+      { "name": "Rice vinegar", "amount": 1, "unit": "Gram" }
+    ]
+  },
+  {
+    "title": "Caprese Salad",
+    "description": "Fresh tomatoes, mozzarella cheese, and basil leaves drizzled with balsamic glaze.",
+    "ratings": [3],
+    "imageUrl": "https://natashaskitchen.com/wp-content/uploads/2019/08/Caprese-Salad-6-1024x1536.jpg",
+    "timeInMins": 10,
+    "categories": ["Vegetarian"],
+    "instructions": ["Slice tomatoes and fresh mozzarella cheese into rounds.", "Arrange alternating slices of tomato, mozzarella, and basil leaves on a serving platter.", "Drizzle with balsamic glaze.", "Season with salt and pepper to taste.", "Serve immediately."],
+    "ingredients": [
+      { "name": "Tomatoes", "amount": 3, "unit": "Pieces" },
+      { "name": "Fresh mozzarella cheese", "amount": 200, "unit": "Gram" },
+      { "name": "Fresh basil leaves", "amount": 0.5, "unit": "Gram" },
+      { "name": "Balsamic glaze", "amount": 2, "unit": "Gram" },
+      { "name": "Salt", "amount": 0.5, "unit": "Gram" },
+      { "name": "Black pepper", "amount": 0.25, "unit": "Gram" }
+    ]
+  },
+  {
+    "title": "Chicken Alfredo Pasta",
+    "description": "Creamy Alfredo sauce tossed with tender chicken breast and fettuccine pasta.",
+    "ratings": [3],
+    "imageUrl": "https://i0.wp.com/spoonfulofsi.com/wp-content/uploads/2022/09/grilled-chicken-alfredo-pasta-p4.png?w=1200&ssl=1",
+    "timeInMins": 30,
+    "categories": ["Chicken"],
+    "instructions": ["Cook fettuccine pasta according to package instructions.", "Season chicken breast with salt, pepper, and Italian seasoning.", "Sauté chicken breast in a skillet until golden and cooked through.", "In the same skillet, add heavy cream, minced garlic, and grated Parmesan cheese.", "Simmer until the sauce thickens.", "Add cooked pasta to the skillet and toss to coat in the Alfredo sauce.", "Slice chicken breast and serve over the pasta.", "Garnish with chopped parsley and additional Parmesan cheese."],
+    "ingredients": [
+      { "name": "Fettuccine pasta", "amount": 250, "unit": "Gram" },
+      { "name": "Chicken breast", "amount": 2, "unit": "Pieces" },
+      { "name": "Salt", "amount": 1, "unit": "Gram" },
+      { "name": "Black pepper", "amount": 0.5, "unit": "Gram" },
+      { "name": "Italian seasoning", "amount": 1, "unit": "Gram" },
+      { "name": "Heavy cream", "amount": 1, "unit": "Gram" },
+      { "name": "Garlic", "amount": 3, "unit": "Pieces" },
+      { "name": "Parmesan cheese", "amount": 0.5, "unit": "Gram" },
+      { "name": "Fresh parsley", "amount": 2, "unit": "Gram" }
+    ]
+  },
+  {
+    "title": "Vegetarian Chili",
+    "description": "Hearty and nutritious chili made with beans, vegetables, and spices.",
+    "ratings": [3],
+    "imageUrl": "https://s23209.pcdn.co/wp-content/uploads/2022/10/211129_DAMN-DELICIOUS_Vegetarian-Chili_279.jpg",
+    "timeInMins": 40,
+    "categories": ["Vegetarian"],
+    "instructions": ["Heat olive oil in a large pot over medium heat.", "Sauté diced onions, bell peppers, and carrots until softened.", "Add minced garlic, chili powder, cumin, and paprika, and cook until fragrant.", "Stir in diced tomatoes, kidney beans, black beans, vegetable broth, and corn.", "Simmer for 25-30 minutes until flavors meld together and chili thickens.", "Season with salt and pepper to taste.", "Serve hot, garnished with chopped cilantro and a dollop of sour cream."],
+    "ingredients": [
+      { "name": "Olive oil", "amount": 2, "unit": "Gram" },
+      { "name": "Onion", "amount": 1, "unit": "Pieces" },
+      { "name": "Bell peppers", "amount": 2, "unit": "Pieces" },
+      { "name": "Carrots", "amount": 2, "unit": "Pieces" },
+      { "name": "Garlic", "amount": 3, "unit": "Pieces" },
+      { "name": "Chili powder", "amount": 2, "unit": "Gram" },
+      { "name": "Ground cumin", "amount": 1, "unit": "Gram" },
+      { "name": "Paprika", "amount": 1, "unit": "Gram" },
+      { "name": "Diced tomatoes", "amount": 400, "unit": "Gram" },
+      { "name": "Kidney beans", "amount": 400, "unit": "Gram" },
+      { "name": "Black beans", "amount": 400, "unit": "Gram" },
+      { "name": "Vegetable broth", "amount": 2, "unit": "Gram" },
+      { "name": "Corn", "amount": 200, "unit": "Gram" },
+      { "name": "Fresh cilantro", "amount": 2, "unit": "Gram" },
+      { "name": "Sour cream", "amount": 0.25, "unit": "Gram" }
+    ]
+  },
+  {
+    "title": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish with spaghetti, pancetta, eggs, and Parmesan cheese.",
+    "ratings": [3],
+    "imageUrl": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/61FCB2B2-DB84-4A68-ABB8-F9FBA800BCA3/Derivates/FCB48A53-86F0-4697-BE75-7B7CE9B49EBE.jpg",
+    "timeInMins": 25,
+    "categories": ["Pasta"],
+    "instructions": ["Cook spaghetti in a pot of salted boiling water until al dente, then drain, reserving some pasta water.", "In a skillet, cook diced pancetta until crispy.", "In a bowl, whisk together eggs, grated Parmesan cheese, and black pepper.", "Add cooked spaghetti to the skillet with pancetta, then pour in the egg mixture.", "Toss quickly to coat the pasta, adding reserved pasta water as needed to create a creamy sauce.", "Serve hot, garnished with additional Parmesan cheese and chopped parsley."],
+    "ingredients": [
+      { "name": "Spaghetti", "amount": 250, "unit": "Gram" },
+      { "name": "Pancetta", "amount": 150, "unit": "Gram" },
+      { "name": "Eggs", "amount": 2, "unit": "Pieces" },
+      { "name": "Parmesan cheese", "amount": 0.5, "unit": "Gram" },
+      { "name": "Black pepper", "amount": 0.5, "unit": "Gram" },
+      { "name": "Salt", "amount": 0.5, "unit": "Gram" },
+      { "name": "Fresh parsley", "amount": 2, "unit": "Gram" }
+    ]
+  },
+  {
+    "title": "Vegetable Pad Thai",
+    "description": "A classic Thai noodle dish with stir-fried vegetables, tofu, and a tangy Pad Thai sauce.",
+    "ratings": [3],
+    "imageUrl": "https://minimalistbaker.com/wp-content/uploads/2019/01/Easy-Vegan-Pad-Thai-SQUARE.jpg",
+    "timeInMins": 35,
+    "categories": ["Vegetarian"],
+    "instructions": ["Soak rice noodles in warm water until softened, then drain.", "In a wok, heat oil and sauté tofu until golden brown.", "Add minced garlic, chopped shallots, and sliced bell peppers.", "Stir in softened rice noodles, bean sprouts, and Pad Thai sauce.", "Cook until heated through.", "Serve hot, garnished with crushed peanuts, lime wedges, and chopped cilantro."],
+    "ingredients": [
+      { "name": "Rice noodles", "amount": 200, "unit": "Gram" },
+      { "name": "Tofu", "amount": 200, "unit": "Gram" },
+      { "name": "Garlic", "amount": 3, "unit": "Pieces" },
+      { "name": "Shallots", "amount": 2, "unit": "Pieces" },
+      { "name": "Bell peppers", "amount": 2, "unit": "Pieces" },
+      { "name": "Bean sprouts", "amount": 100, "unit": "Gram" },
+      { "name": "Pad Thai sauce", "amount": 4, "unit": "Gram" },
+      { "name": "Crushed peanuts", "amount": 0.25, "unit": "Gram" },
+      { "name": "Lime wedges", "amount": 2, "unit": "Pieces" },
+      { "name": "Fresh cilantro", "amount": 2, "unit": "Gram" }
+    ]
+  },
+  {
+    "title": "Honey Garlic Glazed Salmon",
+    "description": "Salmon fillets coated in a sweet and savory honey garlic glaze, baked to perfection.",
+    "ratings": [3],
+    "imageUrl": "https://img.tastelife.tv/assets/uploads/2022/07/Honey_Garlic_Glazed_Salmon_Recipe_16x9-1200x675.jpg",
+    "timeInMins": 20,
+    "categories": ["Seafood"],
+    "instructions": ["Preheat oven to 375°F (190°C).", "In a bowl, mix honey, soy sauce, minced garlic, and grated ginger.", "Place salmon fillets on a baking sheet lined with parchment paper.", "Brush salmon with the honey garlic glaze.", "Bake for 12-15 minutes or until salmon is cooked through.", "Serve hot, garnished with sliced green onions and sesame seeds."],
+    "ingredients": [
+      { "name": "Salmon fillets", "amount": 4, "unit": "Pieces" },
+      { "name": "Honey", "amount": 4, "unit": "Gram" },
+      { "name": "Soy sauce", "amount": 2, "unit": "Gram" },
+      { "name": "Garlic", "amount": 2, "unit": "Pieces" },
+      { "name": "Ginger", "amount": 1, "unit": "Gram" },
+      { "name": "Green onions", "amount": 2, "unit": "Gram" },
+      { "name": "Sesame seeds", "amount": 1, "unit": "Gram" }
+    ]
+  },
+  {
+    "title": "Greek Salad",
+    "description": "A refreshing salad with crisp lettuce, tomatoes, cucumbers, olives, feta cheese, and Greek dressing.",
+    "ratings": [3],
+    "imageUrl": "https://www.thechunkychef.com/wp-content/uploads/2021/07/Greek-Salad-Recipe-recipe-card.jpg",
+    "timeInMins": 15,
+    "categories": ["Vegetarian"],
+    "instructions": ["In a large bowl, combine chopped lettuce, sliced cucumbers, halved cherry tomatoes, sliced red onions, and Kalamata olives.", "Crumble feta cheese over the salad.", "Drizzle with Greek dressing and toss to coat evenly.", "Serve immediately, garnished with fresh oregano leaves."],
+    "ingredients": [
+      { "name": "Lettuce", "amount": 1, "unit": "Pieces" },
+      { "name": "Cucumbers", "amount": 2, "unit": "Pieces" },
+      { "name": "Cherry tomatoes", "amount": 200, "unit": "Gram" },
+      { "name": "Red onions", "amount": 1, "unit": "Pieces" },
+      { "name": "Kalamata olives", "amount": 0.5, "unit": "Gram" },
+      { "name": "Feta cheese", "amount": 150, "unit": "Gram" },
+      { "name": "Greek dressing", "amount": 4, "unit": "Gram" },
+      { "name": "Fresh oregano leaves", "amount": 2, "unit": "Gram" }
+    ]
+  },
 
-      {
-        "title": "Margarita Pizza",
-        "description": "Classic Italian pizza topped with tomato sauce, fresh mozzarella cheese, basil leaves, and a drizzle of olive oil.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/margarita_pizza.jpg",
-        "timeInMins": 20,
-        "categories": ["Pizza", "Vegetarian"],
-        "instructions": ["Preheat oven to 500°F (260°C) with a pizza stone inside.", "Stretch pizza dough into a round shape on parchment paper.", "Spread tomato sauce evenly over the dough.", "Arrange slices of fresh mozzarella cheese on top.", "Bake in the preheated oven for 10-12 minutes until crust is golden and cheese is bubbly.", "Remove from oven, top with fresh basil leaves, and drizzle with olive oil.", "Slice and serve hot."],
-        "ingredients": [
-          { "name": "Pizza dough", "amount": 1, "unit": "Pieces" },
-          { "name": "Tomato sauce", "amount": 0.5, "unit": "Cup" },
-          { "name": "Fresh mozzarella cheese", "amount": 200, "unit": "Gram" },
-          { "name": "Fresh basil leaves", "amount": "10", "unit": "Pieces" },
-          { "name": "Olive oil", "amount": "1", "unit": "Deciliter" }
-        ]
-      },
-      {
-        "title": "Chicken Parmesan",
-        "description": "Breaded chicken breasts topped with marinara sauce and melted mozzarella cheese, served over spaghetti.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/chicken_parmesan.jpg",
-        "timeInMins": 45,
-        "categories": ["Chicken", "Pasta"],
-        "instructions": ["Preheat oven to 400°F (200°C).", "Season chicken breasts with salt and pepper.", "Dip chicken breasts in beaten eggs, then coat with breadcrumbs mixed with grated Parmesan cheese.", "Fry chicken breasts in oil until golden brown.", "Transfer chicken to a baking dish, top with marinara sauce and shredded mozzarella cheese.", "Bake for 15-20 minutes until cheese is melted and bubbly.", "Cook spaghetti according to package instructions.", "Serve chicken Parmesan over spaghetti, garnished with chopped parsley."],
-        "ingredients": [
-          { "name": "Chicken breasts", "amount": 4, "unit": "Pieces" },
-          { "name": "Salt", "amount": "5", "unit": "Gram" },
-          { "name": "Black pepper", "amount": "3", "unit": "Gram" },
-          { "name": "Eggs", "amount": 2, "unit": "Pieces" },
-          { "name": "Breadcrumbs", "amount": 1, "unit": "Deciliter" },
-          { "name": "Grated Parmesan cheese", "amount": 1, "unit": "Deciliter" },
-          { "name": "Marinara sauce", "amount": 2, "unit": "Deciliter" },
-          { "name": "Shredded mozzarella cheese", "amount": 200, "unit": "Gram" },
-          { "name": "Spaghetti", "amount": 250, "unit": "Gram" },
-          { "name": "Chopped parsley", "amount": "5", "unit": "Gram" }
-        ]
-      },
-      {
-        "title": "Lemon Garlic Shrimp Pasta",
-        "description": "Shrimp sautéed in a lemon garlic butter sauce, served over linguine pasta.",
-        "ratings": [3],
-        "imageUrl": "https://example.com/lemon_garlic_shrimp_pasta.jpg",
-        "timeInMins": 25,
-        "categories": ["Seafood", "Pasta"],
-        "instructions": ["Cook linguine pasta according to package instructions.", "Season shrimp with salt and pepper.", "In a skillet, melt butter and sauté minced garlic until fragrant.", "Add shrimp to the skillet and cook until pink and opaque.", "Stir in lemon juice, lemon zest, and chopped parsley.", "Toss cooked pasta with shrimp and sauce until coated evenly.", "Serve hot, garnished with grated Parmesan cheese and additional parsley."],
-        "ingredients": [
-          { "name": "Linguine pasta", "amount": 250, "unit": "Gram" },
-          { "name": "Shrimp", "amount": 300, "unit": "Gram" },
-          { "name": "Salt", "amount": "5", "unit": "Gram" },
-          { "name": "Black pepper", "amount": "5", "unit": "Gram" },
-          { "name": "Butter", "amount": 50, "unit": "Gram" },
-          { "name": "Garlic", "amount": 3, "unit": "Pieces" },
-          { "name": "Lemon juice", "amount": 45, "unit": "Gram" },
-          { "name": "Lemon zest", "amount": 10, "unit": "Gram" },
-          { "name": "Chopped parsley", "amount": 5, "unit": "Gram" },
-          { "name": "Grated Parmesan cheese", "amount": "20", "unit": "Gram" }
-        ]
-      }
-  ]
+  {
+    "title": "Margarita Pizza",
+    "description": "Classic Italian pizza topped with tomato sauce, fresh mozzarella cheese, basil leaves, and a drizzle of olive oil.",
+    "ratings": [3],
+    "imageUrl": "https://www.onceuponachef.com/images/2020/06/Margherita-Pizza-scaled.jpg",
+    "timeInMins": 20,
+    "categories": ["Pizza", "Vegetarian"],
+    "instructions": ["Preheat oven to 500°F (260°C) with a pizza stone inside.", "Stretch pizza dough into a round shape on parchment paper.", "Spread tomato sauce evenly over the dough.", "Arrange slices of fresh mozzarella cheese on top.", "Bake in the preheated oven for 10-12 minutes until crust is golden and cheese is bubbly.", "Remove from oven, top with fresh basil leaves, and drizzle with olive oil.", "Slice and serve hot."],
+    "ingredients": [
+      { "name": "Pizza dough", "amount": 1, "unit": "Pieces" },
+      { "name": "Tomato sauce", "amount": 0.5, "unit": "Cup" },
+      { "name": "Fresh mozzarella cheese", "amount": 200, "unit": "Gram" },
+      { "name": "Fresh basil leaves", "amount": "10", "unit": "Pieces" },
+      { "name": "Olive oil", "amount": "1", "unit": "Deciliter" }
+    ]
+  },
+  {
+    "title": "Chicken Parmesan",
+    "description": "Breaded chicken breasts topped with marinara sauce and melted mozzarella cheese, served over spaghetti.",
+    "ratings": [3],
+    "imageUrl": "https://tastesbetterfromscratch.com/wp-content/uploads/2023/03/Chicken-Parmesan-1-500x500.jpg",
+    "timeInMins": 45,
+    "categories": ["Chicken", "Pasta"],
+    "instructions": ["Preheat oven to 400°F (200°C).", "Season chicken breasts with salt and pepper.", "Dip chicken breasts in beaten eggs, then coat with breadcrumbs mixed with grated Parmesan cheese.", "Fry chicken breasts in oil until golden brown.", "Transfer chicken to a baking dish, top with marinara sauce and shredded mozzarella cheese.", "Bake for 15-20 minutes until cheese is melted and bubbly.", "Cook spaghetti according to package instructions.", "Serve chicken Parmesan over spaghetti, garnished with chopped parsley."],
+    "ingredients": [
+      { "name": "Chicken breasts", "amount": 4, "unit": "Pieces" },
+      { "name": "Salt", "amount": "5", "unit": "Gram" },
+      { "name": "Black pepper", "amount": "3", "unit": "Gram" },
+      { "name": "Eggs", "amount": 2, "unit": "Pieces" },
+      { "name": "Breadcrumbs", "amount": 1, "unit": "Deciliter" },
+      { "name": "Grated Parmesan cheese", "amount": 1, "unit": "Deciliter" },
+      { "name": "Marinara sauce", "amount": 2, "unit": "Deciliter" },
+      { "name": "Shredded mozzarella cheese", "amount": 200, "unit": "Gram" },
+      { "name": "Spaghetti", "amount": 250, "unit": "Gram" },
+      { "name": "Chopped parsley", "amount": "5", "unit": "Gram" }
+    ]
+  },
+  {
+    "title": "Lemon Garlic Shrimp Pasta",
+    "description": "Shrimp sautéed in a lemon garlic butter sauce, served over linguine pasta.",
+    "ratings": [3],
+    "imageUrl": "https://pinchandswirl.com/wp-content/uploads/2020/06/Lemon-Garlic-Shrimp-Pasta.jpg",
+    "timeInMins": 25,
+    "categories": ["Seafood", "Pasta"],
+    "instructions": ["Cook linguine pasta according to package instructions.", "Season shrimp with salt and pepper.", "In a skillet, melt butter and sauté minced garlic until fragrant.", "Add shrimp to the skillet and cook until pink and opaque.", "Stir in lemon juice, lemon zest, and chopped parsley.", "Toss cooked pasta with shrimp and sauce until coated evenly.", "Serve hot, garnished with grated Parmesan cheese and additional parsley."],
+    "ingredients": [
+      { "name": "Linguine pasta", "amount": 250, "unit": "Gram" },
+      { "name": "Shrimp", "amount": 300, "unit": "Gram" },
+      { "name": "Salt", "amount": "5", "unit": "Gram" },
+      { "name": "Black pepper", "amount": "5", "unit": "Gram" },
+      { "name": "Butter", "amount": 50, "unit": "Gram" },
+      { "name": "Garlic", "amount": 3, "unit": "Pieces" },
+      { "name": "Lemon juice", "amount": 45, "unit": "Gram" },
+      { "name": "Lemon zest", "amount": 10, "unit": "Gram" },
+      { "name": "Chopped parsley", "amount": 5, "unit": "Gram" },
+      { "name": "Grated Parmesan cheese", "amount": "20", "unit": "Gram" }
+    ]
+  },
+
+  {
+    "title": "Godaste Cevapcici",
+    "description": "En läcker och smakrik rätt med grillade köttfärsrullar",
+    "ratings": [3],
+    "imageUrl": "https://svensktkott.se/wp-content/uploads/2010/06/cevapcici-0356-1024x683.jpg",
+    "timeInMins": 30,
+    "categories": ["Meat"],
+    "instructions": ["Blanda köttfärsen med lök, vitlök, paprikapulver, salt och svartpeppar i en stor skål.", "Forma små rullar eller bollar av köttfärsblandningen och placera dem på en grill eller grillpanna.", "Grilla cevapcici i cirka 10-15 minuter tills de är genomstekta och har fått fin färg på ytan.", "Servera de grillade köttfärsrullarna med färskt bröd, lök, ajvar och en klick ajoli."],
+    "ingredients": [
+      { "name": "Köttfärs (nötkött)", "amount": 500, "unit": "gram" },
+      { "name": "Lök (finhackad)", "amount": 1, "unit": "Pieces" },
+      { "name": "Vitlök (pressad)", "amount": 2, "unit": "Pieces" },
+      { "name": "Paprikapulver", "amount": 2, "unit": "Gram" },
+      { "name": "Salt", "amount": 1, "unit": "Gram" },
+      { "name": "Svartpeppar", "amount": 2, "unit": "Gram" },
+      { "name": "Färskt bröd", "amount": 1, "unit": "Pieces" },
+      { "name": "Ajvar", "amount": 150, "unit": "Gram" },
+      { "name": "Ajoli", "amount": 100, "unit": "Gram" }
+    ]
+  },
+
+  {
+    "title": "Mashallah Burger",
+    "description": "En ljuvlig halal-burger som får dig att säga 'Mashallah' efter varje tugga.",
+    "imageUrl": "https://onestophalal.com/cdn/shop/articles/halal_burger_banner-1684366320794_278e146f-9c34-448c-a002-342ed721cfc1_1200x.jpg?v=1684792752",
+    "timeInMins": 30,
+    "categories": ["Meat"],
+    "instructions": [
+      "Börja med att forma köttfärsen till burgare och krydda dem med salt, svartpeppar och din favoritgrillkrydda.",
+      "Grilla burgarna på medelhög värme tills de är genomstekta, eller stek dem i en stekpanna om du föredrar det.",
+      "Skiva löken och tomaten tunt. Tvätta och skölj salladen.",
+      "Skär bröden och rosta dem lätt på grillen eller i ugnen.",
+      "Blanda samman majonnäs och vitlök för att göra en härlig vitlökssås.",
+      "Montera burgarna genom att lägga köttburgaren på brödet och toppa med lök, tomat, sallad och vitlökssås.",
+      "Servera med dina favoritpommes eller sallad.",
+      "Säg 'Mashallah' och njut av din halal-burger!"
+    ],
+    "ingredients": [
+      { "name": "Halal köttfärs", "amount": 500, "unit": "Gram" },
+      { "name": "Salt", "amount": 1, "unit": "Gram" },
+      { "name": "Svartpeppar", "amount": 0.5, "unit": "Gram" },
+      { "name": "Grillkrydda", "amount": 1, "unit": "Gram" },
+      { "name": "Lök", "amount": 1, "unit": "Pieces" },
+      { "name": "Tomat", "amount": 1, "unit": "Pieces" },
+      { "name": "Sallad", "amount": 1, "unit": "Pieces" },
+      { "name": "Burgerbröd", "amount": 4, "unit": "Pieces" },
+      { "name": "Majonnäs", "amount": 45, "unit": "Gram" },
+      { "name": "Vitlök (pressad)", "amount": 2, "unit": "Pieces" }
+    ]
+  },
+
+  {
+    "title": "Vegansk Glädje-Gryta",
+    "description": "En utsökt och näringsrik vegansk gryta som kommer att sprida glädje på ditt matbord.",
+    "imageUrl": "https://i0.wp.com/www.jennysmatblogg.nu/app/uploads/sites/6/2018-02-20_2553.jpg?resize=948%2C1024&ssl=1",
+    "timeInMins": 45,
+    "categories": ["Vegan"],
+    "instructions": [
+      "Hacka lök, vitlök, morötter och potatis i bitar.",
+      "Fräs lök och vitlök i en stor gryta med lite olja tills det blir mjukt och genomskinligt.",
+      "Tillsätt morötter, potatis, kikärtor och linser i grytan.",
+      "Häll på grönsaksbuljong och låt det sjuda tills grönsakerna är mjuka och linserna är genomkokta.",
+      "Tillsätt krossade tomater, tomatpuré, spiskummin, paprikapulver, och salt och peppar efter smak.",
+      "Låt grytan sjuda i ytterligare 15-20 minuter tills smakerna har blandats väl.",
+      "Servera den veganska glädje-grytan med färsk koriander och en skiva av citron.",
+      "Njut av denna glädjefyllda och näringsrika måltid!"
+    ],
+    "ingredients": [
+      { "name": "Lök", "amount": 1, "unit": "Pieces" },
+      { "name": "Vitlök (pressad)", "amount": 2, "unit": "Pieces" },
+      { "name": "Morötter", "amount": 3, "unit": "Pieces" },
+      { "name": "Potatis", "amount": 4, "unit": "Pieces" },
+      { "name": "Kikärtor (kokta och avsköljda)", "amount": 1, "unit": "Pieces" },
+      { "name": "Linser (röda eller gröna, sköljda)", "amount": 1, "unit": "Deciliter" },
+      { "name": "Grönsaksbuljong", "amount": 7, "unit": "Deciliter" },
+      { "name": "Krossade tomater", "amount": 400, "unit": "Gram" },
+      { "name": "Tomatpuré", "amount": 30, "unit": "Gram" },
+      { "name": "Spiskummin", "amount": 5, "unit": "Gram" },
+      { "name": "Paprikapulver", "amount": 5, "unit": "Gram" },
+      { "name": "Salt", "amount": 5, "unit": "Gram" },
+      { "name": "Svartpeppar", "amount": 3, "unit": "Gram" },
+      { "name": "Färsk koriander", "amount": 1, "unit": "Pieces" },
+      { "name": "Citron", "amount": 1, "unit": "Pieces" }
+    ]
+  },
+
+  {
+    "title": "Toast skagen",
+    "description": "Gott till champagne",
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_223427/cf_259/korvstroganoff_med_ris.jpg",
+    "timeInMins": 15,
+    "categories": ["Seafood"],
+    "instructions": ["Stek brödet", "Lägg på röran", "Toppa med Dill"],
+    "ingredients": [
+      { "name": "Salt", "amount": 1, "unit": "Gram" },
+      { "name": "Peppar", "amount": 1, "unit": "Gram" },
+      { "name": "Smör", "amount": 100, "unit": "Gram" }
+    ]
+  },
+
+  {
+    "title": "Vem tog bort min Pad Thai?",
+    "description": "it was my grandmas recipe",
+    "imageUrl": "https://pics.craiyon.com/2023-09-22/8d998b6beb844d9ea51e5b2cc1a23009.webp",
+    "timeInMins": 666,
+    "categories": ["grandmas special"],
+    "instructions": ["Seafood"],
+    "ingredients": [
+      { "name": "", "amount": 0, "unit": "" },
+      { "name": "Noodle", "amount": 400, "unit": "Gram" }
+    ]
+  },
+
+  {
+    "title": "Sushi",
+    "description": "Salmon Nigiri and California Rolls",
+    "imageUrl": "https://cdn.starwebserver.se/shops/thailaan/files/cache/sushi-mix_grande.jpg?_=1689616197",
+    "timeInMins": 30,
+    "categories": ["Japan", "Asian", "Fish"],
+    "instructions": ["Take out the Nori", "Cook the Rice", "Filet the Salmon"],
+    "ingredients": [{ "name": "Salmon", "amount": 400, "unit": "Gram"}
+    ]
+  },
+
+  {
+    "title": "Handkäs mit Musik",
+    "description": "Handkäs mit Musik ist ein traditionelles hessisches Gericht, das aus Handkäse, Zwiebeln, Essig und Öl besteht. Es ist einfach zuzubereiten und hat einen einzigartigen würzigen Geschmack.",
+    "imageUrl": "https://www.einfach-tasty.de/assets/images/0/53/53880-298691502-frankfurt-apfelwein-ebbelwei-handkaes-essen-restaurant-2T0UFylmgvBG.jpg",
+    "timeInMins": 15,
+    "categories": ["Vegetarian"],
+    "instructions": ["Den Handkäse in mundgerechte Stücke schneiden und auf einem Teller anrichten.", "Zwiebeln schälen und in feine Ringe schneiden.", "Die Zwiebelringe über den Handkäse verteilen.", "Mit Essig und Öl beträufeln.", "Mit frischem Bauernbrot servieren und genießen."],
+    "ingredients": [{ "name": "Handkäs", "amount": 4, "unit": "Pieces" }],
+    "avgRating": null
+  },
+
+  {
+    "title": "Fried Grasshoppers (Tak Ka Tan Tod)",
+    "description": "Who would have imagined that a hopping grasshopper on the lawns can be eaten?",
+    "imageUrl": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1657168974/blog/yj9njojoc7ao8kc6t5pj.webp",
+    "timeInMins": 5,
+    "categories": ["Meat"],
+    "instructions": ["Buy a bag of delicious Grasshoppers on Khao San Road. ONLY FARANGS pay more than 20Bath for it."],
+    "ingredients": [{ "name": "Grasshoppers", "amount": 50, "unit": "Pieces" }],
+    "avgRating": null
+  }
+]
