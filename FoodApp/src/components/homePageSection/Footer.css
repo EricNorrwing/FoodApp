@@ -1,0 +1,40 @@
+.footer {
+  background-color: palevioletred; /* background color */
+  color: #fff; /* White text color */
+  padding: 50px 20px; /* Adjust padding as needed */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info,
+.social-links {
+  flex: 1;
+}
+
+.contact-info h3,
+.social-links h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons a {
+  color: #fff; /* White icon color */
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.icons a:last-child {
+  margin-right: 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+}

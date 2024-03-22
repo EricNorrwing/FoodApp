@@ -1,9 +1,12 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-/* import { SearchBar } from "../searchbar/SearchBar"; */
 import logo from "../../assets/logo-ff-white-transparent.png";
+import { SearchBar } from "../searchbar/SearchBar";
+import { SearchResultsList } from "../searchbar/SearchResultsList";
 
 const Header = () => {
+  const [results, setResults] = useState([]);
   return (
     <>
       <header className="header">
@@ -12,7 +15,14 @@ const Header = () => {
             <img src={logo} alt="Recipe App Logo" />
           </Link>
         </div>
-        {/* <SearchBar /> */}
+        <div className="App">
+          <div className="search-bar-container">
+            <SearchBar setResults={setResults} />
+            {results && results.length > 0 && (
+              <SearchResultsList results={results} />
+            )}
+          </div>
+        </div>
         <nav className="navigation">
           <ul>
             <li>
@@ -20,9 +30,6 @@ const Header = () => {
             </li>
             <li>
               <Link to="/recipes">Recipes</Link>{" "}
-            </li>
-            <li>
-              <Link to="/create-recipe">Create Your Own Recipe</Link>{" "}
             </li>
             <li>
               <Link to="/cocktails">Cocktails</Link>{" "}
