@@ -1,6 +1,6 @@
 import CleanRecipeAPIData from "../CleanRecipeAPIData"
 
-const testPageCleanRecipes = () => {
+const DevTools = () => {
   return (
     <div>
       <CleanRecipeAPIData/>
@@ -8,4 +8,4 @@ const testPageCleanRecipes = () => {
   )
 }
 
-export default testPageCleanRecipes
+export default DevTools

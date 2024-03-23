@@ -10,6 +10,7 @@ interface RecipeState {
   updateRecipe: (id: string) => void;
   setRecipeState: (newRecipe: Recipe[]) => void;
   getRecipesFromAPI: () => void;
+  postRecipeToAPI: (recipe: Recipe) => void;
 }
 const recipeURL = getURL();
 const useRecipeState = create<RecipeState>()((set) => ({
@@ -45,15 +46,34 @@ const useRecipeState = create<RecipeState>()((set) => ({
     try {
       const response = await axios.get<Recipe[]>(`${recipeURL}/recipes`);
       if (response.status === 200) {
+
         console.log(response.data)
         set((state) => ({
-          recipes: response.data,
+            recipes: response.data,
+            
         }));
       }
     } catch (error) {
       console.error("Error fetching recipes: ", error);
     }
   },
+
+  postRecipeToAPI: async (recipe: Recipe) => {
+    try {
+        const response = await axios.post<Recipe[]>(`${recipeURL}/recipes`, recipe)
+        if (response.status === 200) {
+            console.log(response.data)
+            set((state) => ({
+                recipes: response.data
+            }))
+        }
+    } catch (error) {
+        console.error("Error posting Recipe: ", error)
+    }
+  }
+
+
+
   //const getRecipesFromAPI = useRecipeState((state) => state.getRecipesFromAPI);
   //<button onClick={useRecipeState.getState().getRecipesFromAPI}>Fetch recipes</button> to call for this function
 }));

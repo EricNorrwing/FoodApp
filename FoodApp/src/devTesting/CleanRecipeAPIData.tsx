@@ -8,7 +8,7 @@ const CleanRecipeAPIData = () => {
   const recipeState = useRecipeState();
   const recipeURL = getURL();
 
-  //funktion to uppload full json file
+  //function to upload full json file
   const uploadRecipeJson = async () => {
     for (const recipe of recipesData) {
       try {
@@ -32,10 +32,15 @@ const CleanRecipeAPIData = () => {
   const clearAPI = async () => {
     try {
       const response = await axios.get(`${recipeURL}/clear`);
-      console.log(response.status);
+      if (response.status === 200) {
+        console.log(response.status);
+        alert("API cleared");
+        recipeState.setRecipeState([]);
+      }
     } catch (error) {
       console.error("Error, clear failed");
     }
+    console.log(recipeState.recipes);
   };
 
   const handleUploadClick = () => {

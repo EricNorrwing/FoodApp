@@ -2,7 +2,7 @@
   {
     "title": "Grilled Steak with Garlic Butter",
     "description": "Juicy grilled steak seasoned with salt and pepper, topped with flavorful garlic butter.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://ketocookingchristian.com/wp-content/uploads/2021/04/Grilled-Steak-with-Garlic-Herb-Compound-Butter2-1411x1536.jpeg",
     "timeInMins": 20,
     "categories": ["Meat"],
@@ -18,7 +18,7 @@
   {
     "title": "Lemon Herb Roast Chicken",
     "description": "Whole chicken marinated in lemon juice, olive oil, and herbs, then roasted to perfection.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://minimalistbaker.com/wp-content/uploads/2022/09/EASY-Lemon-Herb-Roasted-Chicken-Thighs-30-minutes-SO-satisfying-and-elegant-minimalistbaker-recipe-roasted-chicken-thighs-13.jpg",
     "timeInMins": 90,
     "categories": ["Chicken"],
@@ -35,7 +35,7 @@
   {
     "title": "Grilled Salmon with Dill Sauce",
     "description": "Fresh salmon fillets grilled and served with a creamy dill sauce.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://www.walderwellness.com/wp-content/uploads/2021/06/Grilled-Salmon-With-Dill-Yogurt-Sauce-Walder-Wellness-4.jpg",
     "timeInMins": 25,
     "categories": ["Fish"],
@@ -54,7 +54,7 @@
   {
     "title": "Classic Beef Lasagna",
     "description": "Layers of lasagna noodles, beef Bolognese sauce, creamy béchamel, and melted cheese.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://www.recipegirl.com/wp-content/uploads/2021/04/Classic-Beef-Lasagna-6.jpeg",
     "timeInMins": 90,
     "categories": ["Meat"],
@@ -75,7 +75,7 @@
   {
     "title": "Vegetable Stir-Fry",
     "description": "Assorted vegetables stir-fried in a savory sauce, served over steamed rice.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://therecipecritic.com/wp-content/uploads/2019/08/vegetable_stir_fry.jpg",
     "timeInMins": 25,
     "categories": ["Vegetarian"],
@@ -99,7 +99,7 @@
   {
     "title": "Caprese Salad",
     "description": "Fresh tomatoes, mozzarella cheese, and basil leaves drizzled with balsamic glaze.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://natashaskitchen.com/wp-content/uploads/2019/08/Caprese-Salad-6-1024x1536.jpg",
     "timeInMins": 10,
     "categories": ["Vegetarian"],
@@ -116,7 +116,7 @@
   {
     "title": "Chicken Alfredo Pasta",
     "description": "Creamy Alfredo sauce tossed with tender chicken breast and fettuccine pasta.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://i0.wp.com/spoonfulofsi.com/wp-content/uploads/2022/09/grilled-chicken-alfredo-pasta-p4.png?w=1200&ssl=1",
     "timeInMins": 30,
     "categories": ["Chicken"],
@@ -136,7 +136,7 @@
   {
     "title": "Vegetarian Chili",
     "description": "Hearty and nutritious chili made with beans, vegetables, and spices.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://s23209.pcdn.co/wp-content/uploads/2022/10/211129_DAMN-DELICIOUS_Vegetarian-Chili_279.jpg",
     "timeInMins": 40,
     "categories": ["Vegetarian"],
@@ -162,7 +162,7 @@
   {
     "title": "Spaghetti Carbonara",
     "description": "Classic Italian pasta dish with spaghetti, pancetta, eggs, and Parmesan cheese.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/61FCB2B2-DB84-4A68-ABB8-F9FBA800BCA3/Derivates/FCB48A53-86F0-4697-BE75-7B7CE9B49EBE.jpg",
     "timeInMins": 25,
     "categories": ["Pasta"],
@@ -180,7 +180,7 @@
   {
     "title": "Vegetable Pad Thai",
     "description": "A classic Thai noodle dish with stir-fried vegetables, tofu, and a tangy Pad Thai sauce.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://minimalistbaker.com/wp-content/uploads/2019/01/Easy-Vegan-Pad-Thai-SQUARE.jpg",
     "timeInMins": 35,
     "categories": ["Vegetarian"],
@@ -201,7 +201,7 @@
   {
     "title": "Honey Garlic Glazed Salmon",
     "description": "Salmon fillets coated in a sweet and savory honey garlic glaze, baked to perfection.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://img.tastelife.tv/assets/uploads/2022/07/Honey_Garlic_Glazed_Salmon_Recipe_16x9-1200x675.jpg",
     "timeInMins": 20,
     "categories": ["Seafood"],
@@ -219,7 +219,7 @@
   {
     "title": "Greek Salad",
     "description": "A refreshing salad with crisp lettuce, tomatoes, cucumbers, olives, feta cheese, and Greek dressing.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://www.thechunkychef.com/wp-content/uploads/2021/07/Greek-Salad-Recipe-recipe-card.jpg",
     "timeInMins": 15,
     "categories": ["Vegetarian"],
@@ -239,7 +239,7 @@
   {
     "title": "Margarita Pizza",
     "description": "Classic Italian pizza topped with tomato sauce, fresh mozzarella cheese, basil leaves, and a drizzle of olive oil.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://www.onceuponachef.com/images/2020/06/Margherita-Pizza-scaled.jpg",
     "timeInMins": 20,
     "categories": ["Pizza", "Vegetarian"],
@@ -248,35 +248,35 @@
       { "name": "Pizza dough", "amount": 1, "unit": "Pieces" },
       { "name": "Tomato sauce", "amount": 0.5, "unit": "Cup" },
       { "name": "Fresh mozzarella cheese", "amount": 200, "unit": "Gram" },
-      { "name": "Fresh basil leaves", "amount": "10", "unit": "Pieces" },
-      { "name": "Olive oil", "amount": "1", "unit": "Deciliter" }
+      { "name": "Fresh basil leaves", "amount": 10, "unit": "Pieces" },
+      { "name": "Olive oil", "amount": 1, "unit": "Deciliter" }
     ]
   },
   {
     "title": "Chicken Parmesan",
     "description": "Breaded chicken breasts topped with marinara sauce and melted mozzarella cheese, served over spaghetti.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://tastesbetterfromscratch.com/wp-content/uploads/2023/03/Chicken-Parmesan-1-500x500.jpg",
     "timeInMins": 45,
     "categories": ["Chicken", "Pasta"],
     "instructions": ["Preheat oven to 400°F (200°C).", "Season chicken breasts with salt and pepper.", "Dip chicken breasts in beaten eggs, then coat with breadcrumbs mixed with grated Parmesan cheese.", "Fry chicken breasts in oil until golden brown.", "Transfer chicken to a baking dish, top with marinara sauce and shredded mozzarella cheese.", "Bake for 15-20 minutes until cheese is melted and bubbly.", "Cook spaghetti according to package instructions.", "Serve chicken Parmesan over spaghetti, garnished with chopped parsley."],
     "ingredients": [
       { "name": "Chicken breasts", "amount": 4, "unit": "Pieces" },
-      { "name": "Salt", "amount": "5", "unit": "Gram" },
-      { "name": "Black pepper", "amount": "3", "unit": "Gram" },
+      { "name": "Salt", "amount": 5, "unit": "Gram" },
+      { "name": "Black pepper", "amount": 3, "unit": "Gram" },
       { "name": "Eggs", "amount": 2, "unit": "Pieces" },
       { "name": "Breadcrumbs", "amount": 1, "unit": "Deciliter" },
       { "name": "Grated Parmesan cheese", "amount": 1, "unit": "Deciliter" },
       { "name": "Marinara sauce", "amount": 2, "unit": "Deciliter" },
       { "name": "Shredded mozzarella cheese", "amount": 200, "unit": "Gram" },
       { "name": "Spaghetti", "amount": 250, "unit": "Gram" },
-      { "name": "Chopped parsley", "amount": "5", "unit": "Gram" }
+      { "name": "Chopped parsley", "amount": 5, "unit": "Gram" }
     ]
   },
   {
     "title": "Lemon Garlic Shrimp Pasta",
     "description": "Shrimp sautéed in a lemon garlic butter sauce, served over linguine pasta.",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://pinchandswirl.com/wp-content/uploads/2020/06/Lemon-Garlic-Shrimp-Pasta.jpg",
     "timeInMins": 25,
     "categories": ["Seafood", "Pasta"],
@@ -284,21 +284,21 @@
     "ingredients": [
       { "name": "Linguine pasta", "amount": 250, "unit": "Gram" },
       { "name": "Shrimp", "amount": 300, "unit": "Gram" },
-      { "name": "Salt", "amount": "5", "unit": "Gram" },
-      { "name": "Black pepper", "amount": "5", "unit": "Gram" },
+      { "name": "Salt", "amount": 5, "unit": "Gram" },
+      { "name": "Black pepper", "amount": 5, "unit": "Gram" },
       { "name": "Butter", "amount": 50, "unit": "Gram" },
       { "name": "Garlic", "amount": 3, "unit": "Pieces" },
       { "name": "Lemon juice", "amount": 45, "unit": "Gram" },
       { "name": "Lemon zest", "amount": 10, "unit": "Gram" },
       { "name": "Chopped parsley", "amount": 5, "unit": "Gram" },
-      { "name": "Grated Parmesan cheese", "amount": "20", "unit": "Gram" }
+      { "name": "Grated Parmesan cheese", "amount": 20, "unit": "Gram" }
     ]
   },
 
   {
     "title": "Godaste Cevapcici",
     "description": "En läcker och smakrik rätt med grillade köttfärsrullar",
-    "ratings": [3],
+    "ratings": 3,
     "imageUrl": "https://svensktkott.se/wp-content/uploads/2010/06/cevapcici-0356-1024x683.jpg",
     "timeInMins": 30,
     "categories": ["Meat"],
@@ -319,6 +319,7 @@
   {
     "title": "Mashallah Burger",
     "description": "En ljuvlig halal-burger som får dig att säga 'Mashallah' efter varje tugga.",
+    "ratings": 3,
     "imageUrl": "https://onestophalal.com/cdn/shop/articles/halal_burger_banner-1684366320794_278e146f-9c34-448c-a002-342ed721cfc1_1200x.jpg?v=1684792752",
     "timeInMins": 30,
     "categories": ["Meat"],
@@ -349,6 +350,7 @@
   {
     "title": "Vegansk Glädje-Gryta",
     "description": "En utsökt och näringsrik vegansk gryta som kommer att sprida glädje på ditt matbord.",
+    "ratings": 3,
     "imageUrl": "https://i0.wp.com/www.jennysmatblogg.nu/app/uploads/sites/6/2018-02-20_2553.jpg?resize=948%2C1024&ssl=1",
     "timeInMins": 45,
     "categories": ["Vegan"],
@@ -384,6 +386,7 @@
   {
     "title": "Toast skagen",
     "description": "Gott till champagne",
+    "ratings": 3,
     "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_223427/cf_259/korvstroganoff_med_ris.jpg",
     "timeInMins": 15,
     "categories": ["Seafood"],
@@ -398,6 +401,7 @@
   {
     "title": "Vem tog bort min Pad Thai?",
     "description": "it was my grandmas recipe",
+    "ratings": 3,
     "imageUrl": "https://pics.craiyon.com/2023-09-22/8d998b6beb844d9ea51e5b2cc1a23009.webp",
     "timeInMins": 666,
     "categories": ["grandmas special"],
@@ -411,33 +415,33 @@
   {
     "title": "Sushi",
     "description": "Salmon Nigiri and California Rolls",
+    "ratings": 3,
     "imageUrl": "https://cdn.starwebserver.se/shops/thailaan/files/cache/sushi-mix_grande.jpg?_=1689616197",
     "timeInMins": 30,
     "categories": ["Japan", "Asian", "Fish"],
     "instructions": ["Take out the Nori", "Cook the Rice", "Filet the Salmon"],
-    "ingredients": [{ "name": "Salmon", "amount": 400, "unit": "Gram"}
-    ]
+    "ingredients": [{ "name": "Salmon", "amount": 400, "unit": "Gram" }]
   },
 
   {
     "title": "Handkäs mit Musik",
     "description": "Handkäs mit Musik ist ein traditionelles hessisches Gericht, das aus Handkäse, Zwiebeln, Essig und Öl besteht. Es ist einfach zuzubereiten und hat einen einzigartigen würzigen Geschmack.",
+    "ratings": 3,
     "imageUrl": "https://www.einfach-tasty.de/assets/images/0/53/53880-298691502-frankfurt-apfelwein-ebbelwei-handkaes-essen-restaurant-2T0UFylmgvBG.jpg",
     "timeInMins": 15,
     "categories": ["Vegetarian"],
     "instructions": ["Den Handkäse in mundgerechte Stücke schneiden und auf einem Teller anrichten.", "Zwiebeln schälen und in feine Ringe schneiden.", "Die Zwiebelringe über den Handkäse verteilen.", "Mit Essig und Öl beträufeln.", "Mit frischem Bauernbrot servieren und genießen."],
-    "ingredients": [{ "name": "Handkäs", "amount": 4, "unit": "Pieces" }],
-    "avgRating": null
+    "ingredients": [{ "name": "Handkäs", "amount": 4, "unit": "Pieces" }]
   },
 
   {
     "title": "Fried Grasshoppers (Tak Ka Tan Tod)",
     "description": "Who would have imagined that a hopping grasshopper on the lawns can be eaten?",
+    "ratings": 3,
     "imageUrl": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1657168974/blog/yj9njojoc7ao8kc6t5pj.webp",
     "timeInMins": 5,
     "categories": ["Meat"],
     "instructions": ["Buy a bag of delicious Grasshoppers on Khao San Road. ONLY FARANGS pay more than 20Bath for it."],
-    "ingredients": [{ "name": "Grasshoppers", "amount": 50, "unit": "Pieces" }],
-    "avgRating": null
+    "ingredients": [{ "name": "Grasshoppers", "amount": 50, "unit": "Pieces" }]
   }
 ]
