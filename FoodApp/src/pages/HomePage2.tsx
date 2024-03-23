@@ -1,4 +1,7 @@
 /* 
+
+HERE IS SEARCHBAR LOGIC Which needs to be moved out to Searchbar Component so I can integrate it to the Header Component
+
 import { useState } from "react";
 
 import { SearchBar } from "../components/searchbar/SearchBar";
