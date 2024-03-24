@@ -1,0 +1,43 @@
+.hero{
+  background-image: url('https://cdb.arla.com/api/assets/arla-se/40080e7b-1ad2-41c0-9911-38a175a0a34d/treratters-2048x1152.jpg?width=1280&height=650&mode=cropupsize&quality=90'); /* Add your background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* White text color */
+  padding: 100px 20px; /* Adjust padding as needed */
+  text-align: center;
+  border-radius: 20px;
+  
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ffd700; /* Yellow button color */
+  color: #333; /* Dark text color */
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffcc00; /* Darken button color on hover */
+}
