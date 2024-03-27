@@ -25,7 +25,7 @@ const useRecipeState = create<RecipeState>()((set) => ({
     set((state) => ({
       recipes: state.recipes.filter((recipe) => recipe._id !== id),
     })),
-
+//update not finished!
   updateRecipe: (id: string) =>
     set((state) => ({
       recipes: state.recipes.map((recipeToUpdate) => {
