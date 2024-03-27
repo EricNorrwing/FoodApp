@@ -79,9 +79,6 @@ const CreateRecipeComponent = () => {
   };
 
 
-  
-
-
   useEffect(() => {
     console.log(recipe.ingredients);
   }, [recipe.ingredients])

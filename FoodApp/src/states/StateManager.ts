@@ -21,10 +21,20 @@ const useRecipeState = create<RecipeState>()((set) => ({
       recipes: [...state.recipes, newRecipe],
     })),
 
-  deleteRecipe: (id: string) =>
-    set((state) => ({
-      recipes: state.recipes.filter((recipe) => recipe._id !== id),
-    })),
+  deleteRecipe: async (id: string) => {
+    try {
+    const response = await axios.delete(`${recipeURL}/recipes/${id}`)
+      if(response.status === 200) {
+        set((state) => ({
+          recipes: state.recipes.filter((recipe) => recipe._id !==id)
+        }))
+      }
+    } catch (error){
+      console.log("Could not run deleteRecipe(id) with id: ", id, error)
+    }
+  },
+  
+   
 //update not finished!
   updateRecipe: (id: string) =>
     set((state) => ({
@@ -70,7 +80,9 @@ const useRecipeState = create<RecipeState>()((set) => ({
     } catch (error) {
         console.error("Error posting Recipe: ", error)
     }
-  }
+  },
+
+ 
 
 
 

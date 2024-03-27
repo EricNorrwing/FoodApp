@@ -9,6 +9,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import DevTools from "./devTesting/devPages/DevTools";
 import ComponentDevTestPage from "./devTesting/devPages/ComponentDevTestPage"; 
+import DisplayRecipeComponent from "./components/DisplayRecipeComponent/DisplayRecipeComponent";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/create-recipe" element={<CreateRecipePage />} />
           <Route path="/devTools" element={<DevTools/>} />
           <Route path="/devTest" element={<ComponentDevTestPage/>}/>
+          <Route path="/displayRecipe" element={<DisplayRecipeComponent/> }/>
         </Routes>
         {/* <Footer/> */}
       </BrowserRouter>

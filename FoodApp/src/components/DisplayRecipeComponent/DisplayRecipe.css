@@ -1,0 +1,47 @@
+.root{
+    display:flex;
+}
+.recipe-component-wrapper{
+    background-color: blueviolet;
+}
+.Title{
+    background-color: aqua;
+    top: 0;
+    left: 0;
+    margin: 20px; 
+}
+.Categories{
+    background-color:blanchedalmond
+}
+.TimeInMins{
+    background-color: rgb(7, 126, 126);
+}
+.Image-wrapper{
+    background-color: rgb(194, 112, 12);
+}
+.Image-wrapper > img{
+    max-width: 45%;
+    max-height: 30%;
+}
+.Description{
+    background-color: saddlebrown;
+    
+}
+.Ingredients-List-Wrapper{
+    background-color: blue;
+    
+}
+.Ingredients-List-Wrapper > ul{
+
+}
+.Instruction-List-Wrapper{
+    background-color: brown;
+    
+}.Instruction-List-Wrapper > ol{
+    
+}
+
+#InputTest{
+    background-color: blue;
+}
+
