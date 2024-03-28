@@ -41,6 +41,20 @@ const useRecipeState = create<RecipeState>()((set) => ({
     set(() => ({
       recipes: newRecipes,
     })),
+    
+  getRecipesById: async (id : string) =>{
+    try {
+      console.log(`${recipeURL}/recipes/${id}`)
+    const response = await axios.get<Recipe[]>(`${recipeURL}/recipes/${id}`);
+    if(response.status === 200) {
+      console.log("Recipe found: ", response.data)
+      return response.data;
+    }
+  } catch (error) {
+      console.error("Error fetching recipe: ", error)
+      throw error;
+    }
+  },
 
   getRecipesFromAPI: async () => {
     try {
