@@ -1,12 +1,13 @@
 import React from 'react';
 
-interface EditTitleProps {
+interface EditTextProps {
   value: string;
   editMode: boolean;
   handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   cssId: string;
 }
-const EditTitleComponent = ({ value, editMode, handleChange, cssId }: EditTitleProps) => {
+
+const EditTextComponent = ({ value, editMode, handleChange, cssId }: EditTextProps) => {
   return (
     <div>
       {editMode ? (
@@ -22,4 +23,4 @@ const EditTitleComponent = ({ value, editMode, handleChange, cssId }: EditTitleP
   );
 };
 
-export default EditTitleComponent;
+export default EditTextComponent

@@ -5,7 +5,7 @@
     "ratings": 3,
     "imageUrl": "https://ketocookingchristian.com/wp-content/uploads/2021/04/Grilled-Steak-with-Garlic-Herb-Compound-Butter2-1411x1536.jpeg",
     "timeInMins": 20,
-    "categories": ["Meat"],
+    "categories": ["Meat", "Chicken", "Pizza"],
     "instructions": ["Preheat grill to high heat.", "Season steak with salt and pepper.", "Grill steak for 4-5 minutes on each side for medium-rare.", "Mix softened butter with minced garlic.", "Top grilled steak with garlic butter and let it rest for a few minutes before serving."],
     "ingredients": [
       { "name": "Steak", "amount": 2, "unit": "Pieces" },

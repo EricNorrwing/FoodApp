@@ -6,6 +6,10 @@ import axios from "axios";
 import "./DisplayRecipe.css"
 import InputTextFieldComponent from "../InputFields/InputTextFieldComponent";
 import EditTitleComponent from "./EditModeFields/EditTitlecomponent";
+import EditTextComponent from "./EditModeFields/EditTextComponent";
+import EditTextArrayMapComponent from "./EditModeFields/EditTextArrayMapComponent";
+import EditTextArrayComponent from "./EditModeFields/EditTextArrayComponent";
+import CategorySelector from "../InputFields/categorySelector/CategorySelector";
 
 interface RecipeComponentProps {
   id:string;
@@ -20,6 +24,7 @@ const DisplayRecipe = ({ id }: RecipeComponentProps) => {
 
   
 
+ 
 
   const getRecipe = async () => {
     try {
@@ -45,13 +50,16 @@ const DisplayRecipe = ({ id }: RecipeComponentProps) => {
     console.log(editingRecipe)
   }
   
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const { value } = event.target;
+  const handleChange = (fieldName: string, value: string | string[] | number) => {
     setRecipe((prevRecipe) => ({
       ...prevRecipe!,
-      title: value,
-    }));
-  };
+      [fieldName]: value,
+      
+     }));
+     //TODO REMOVE DEBUGGING
+    console.log(value);
+    console.log(recipe)
+    };
 
 
 
@@ -60,17 +68,36 @@ const DisplayRecipe = ({ id }: RecipeComponentProps) => {
     getRecipe();
   }, [id]);
 
+  //Debugging row, TODO REMOVE (?)
   useEffect(() => {
     getRecipe();
   }, []);
 
-  
+  const cssIDs: Array<string> = ["cssTitleId", "cssTextId", "cssCategoriesId" ]
+//   export interface Recipe {
+//     _id?: string,  
+//     title: string,
+//     description: string,
+//     ratings?: Ratings,
+//     imageUrl: string,
+//     timeInMins: number,
+//     categories: string[], 
+//     instructions: string[],
+//     ingredients: Ingredient[]
+// }
   return (
     <div className="recipe-component-wrapper">
       {recipe && (
         <><form>
-          <EditTitleComponent mode={editingRecipe} value={recipe.title} handleChange={handleChange} />
+          <EditTitleComponent editMode={editingRecipe} value={recipe.title} handleChange={(event) => handleChange('title', event.target.value)} cssId={cssIDs[0]} />
+          <EditTextArrayComponent editMode={editingRecipe} value={recipe.categories} handleChange={(event) => handleChange('categories', event.target.value)} cssId={cssIDs[2]} />
           
+          {/* <EditTextArrayComponent editMode={editingRecipe} value={recipe.categories} handleChange={handleChange} cssId={cssIDs[1]} /> */}
+          {/* <EditTextComponent editMode={editingRecipe} value={recipe.title} handleChange={handleChange} cssId={cssIDs[2]} /> */}
+          
+
+          <EditTextArrayMapComponent editMode={editingRecipe} value={recipe.instructions} handleChange={(value) => handleChange('instructions', value)} cssId={cssIDs[2]} /> 
+          <button type="submit">Submit form</button>
           </form>
           {/* needs mapping later */}
           <div className="Categories">{recipe.categories}</div>
@@ -87,13 +114,8 @@ const DisplayRecipe = ({ id }: RecipeComponentProps) => {
             ))}
             </ul>
           </div>
-          <div className="Instruction-List-Wrapper">
-            <ol>
-              {recipe.instructions.map((instruction, index) => (
-                <li key={index}>{instruction}</li>
-              ))}
-            </ol>
-          </div>
+          
+          
           {/* <p>{recipe.ratings}</p> */}
           <button onClick={() => handleDelete(id)}>DELETE THIS RECIPE</button>
           {editingRecipe ? (
